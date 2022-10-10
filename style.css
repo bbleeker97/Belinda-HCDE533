@@ -13,6 +13,10 @@ a {
   color: #000;
 }
 
+img {
+  height: fit-content;
+}
+
 .header {
   background: #fff;
   color: #000;
@@ -24,6 +28,11 @@ a {
   font-size: 50px;
   }
 
+.assignments {
+  display: flex;
+  flex-align: row;
+}
+
 .assignment {
   font-size: 12px;
   line-height: 24px;
@@ -31,7 +40,6 @@ a {
   padding: 20px 20px 20px 30px;
   width: 250px;
   height: 350px;
-  float: left;
 }
 
 .assignment a {
