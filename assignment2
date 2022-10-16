@@ -1,0 +1,94 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Belinda Bleeker's HCDE533 Assignment 2</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+        <h1>Belinda Bleeker's Assignment 2!</h1>
+    <p>
+    <img src="FinalPressfit.jpg" width=1000></a>
+    </p>
+    <p>
+            I started my assignment by looking for ideas online. I found <a href="http://aaminadesigns.co.za/?tag=press-fit"> this example </a> using flowers and connectors to make a model. I wanted to try a different flower shape, a Sakura blossom. I found <a href=https://freesvg.org/img/Anonymous_sakura.png> this image </a> and used Adobe Illustrator to turn it into an outline. I moved that outline to Rhino and used one of the line paths to outline the blossom.
+    </p>
+    <p>
+    <img src="Sakura Outline.png">
+    </p>
+             Then I took measurements of the cardboard I decided to use to determine the width of the cutout points I would use to press-fit the pieces together.
+    <p>    
+    <img src="Cardboard Thickness.jpg" width="1000">
+    </p>
+    <p>
+        I then used the polar array in Rhino to create an octagon with a cut-out section to be the connector piece.
+    </p>
+    <p>    
+    <img src="RhinoSakura.png">
+    </p>
+    <p>
+I tested the model with the laser cutter at The 8 and it did not pass the shaker test.
+    </p>
+    <p>
+    <img src="Fail-Test_AdobeExpress.gif" width="300">
+    </p>
+    <p>
+I got some help from Junchao to shrink the cutouts for the press fit and it passed the shake test.
+    </p>
+    <p>
+    <img src="Succeed-Test_AdobeExpress.gif" width="300">
+    </p>
+    <p>
+Lastly, I did a final run at The 8 with the following settings: 
+    </p>
+    <p>
+Power: 100%, Speed:10%, PPI: 300, Z-Axis 0.165” Vector Performance: Quality, Throughout.
+    </p>
+    <p>
+Material: General Soft Wood and Material Thickness: 0.165”
+    </p>
+    <p>    
+    <img src="Sakura Laser Cutter.jpg" width="1000">
+    </p>
+    <p>
+Here is the final shake test.
+    <p>
+    <img src="ShakeTestFinal_AdobeExpress.gif" width="300"> 
+    </p>
+    </p>
+    <p>
+Documentation:
+    </p>
+    <p>
+<a href=A1Solid.3dm>Rhino file</a>
+    </p>
+    <p>
+<a href=SkauraLong.ai>Adobe Illustrator file</a>
+    </p>
+    
+    <p>
+Acknowledgements
+    </p>
+    <p>
+My partner Peter for helping me design in Rhino
+    </p>
+    <p>
+Junchao for showing me how to change the cut-out size without re-doing the whole file
+    </p>
+    <p>
+The 8 staff for helping me figure out the right settings for the laser cutter
+    </p>
+    <p>
+And my friend Dana for helping me put this site together
+    </p>
+    </p>
+ <a href="index.html"><p>Return to index</p></a>
+        </div>        
+    </body>
+</html>
