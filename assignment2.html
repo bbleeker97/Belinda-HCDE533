@@ -17,15 +17,23 @@
     <img src="GrasshopperFInal.jpg" width=1000></a>
     </p>
     <p>
-         After the first assignment I wanted to make an easier shape now that I had to use Grasshopper. I wanted to do an octogon which I made myself so it would have some curves to it.
-        I was able to make  the shape by using a circle, a line, polar arrayed, and a rectangle polar arrayed.
+         After the first assignment I wanted to make an easier shape now that I had to use Grasshopper. 
+        I wanted to do an octogon which I made myself so it would have some curves to it.
+        I tried to complete this by following what I had done with the connector piece in assignment 1.
+        In the end I was able to make an outline of the shape by using a circle, a line, polar arrayed, and a rectangle polar arrayed. all using the same plane.
+        The circle was created with the circle command at the plane, which I then baked. I then used Rhino and the near feature to make a point. I continued the line by using shift until it reached the other end of the circle.
+        I used the start and end point of the line as the two points for the line function in Grasshopper. Which I then polar arrayed.
+        I followed the example from class to make the rectangles, again arrayed 8 times, to make the cut outs.
+        With all these pieces created in Grasshopper I deleted the baked ones in Rhino.
     </p>
     <p>
     <img src="GrasshopperFile1.png" width=500></a>
     </p>
     <p>
     Unfortunately I couldn't cut the curves that went over the flat edge of the line because unlike Rhino, Grasshopper requires that objects be trimmed by a complete curve. 
-        After trying multiple things I went to Junchao's office hours and we both tried going through it until we found a solution, making a circle around the section using the lines, to cut the curved edge away.
+    After trying multiple things I went to Junchao's office hours and we both tried going through it until we found a solution, making a circle around the section using the lines, to cut the curved edge away.
+    In the end I used 3 trim with regions commands to create the final shape. The first was to cut off the outer circle and the other two were used to make the cut-in points with the rectangles.
+    I also had to make sure that every point used in the "trim with regions" was flattened so they would all work.
     <p>
     <img src="GrasshopperFixCoce.png" width=500></a>
     <img src="GrasshopperProofOfFix.png" width=500></a>
