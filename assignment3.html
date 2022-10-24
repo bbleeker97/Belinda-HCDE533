@@ -17,7 +17,10 @@
 <!--     <img src="" width=1000></a> -->
     </p>
     <p>
-     First for this assignment I had to set-up my 3D-Printer. That took about an hour and 40 minutes. 
+     Part 1:
+    </p>
+    <p>
+      First for this assignment I had to set-up my 3D-Printer. That took about an hour and 40 minutes. 
       I watched the tutorial video first and afterwords put it together, getting a baseline for everything first helped.
       Then I set out to actually put it together. 
       I got lucky my bed was secure, and the extruder didn't wiggle from the start.
@@ -34,6 +37,9 @@
     <img src="BoltsSecure_AdobeExpress.gif" width=300></a>
     <img src="A3BuildBack.jpg" width=500></a>
     </p>  
+    <p>
+     Part 2:
+    </p>
     <p>
       Next was to level the bed. Oh boy, was this a pain. The back left skrew was initially jammed and I think I spent over an hour testing again and again until it was level.
       Here is the proof of my long and tedious work.
@@ -58,7 +64,8 @@
     </p>
     <p>
     <p>
-With that finished I moved to Cura and created the Gcodes. One Low Quality, one Standard Quality, one Super Quality, and one Standard Quality with a concentric top and bottom.
+With that finished I moved to Cura and created the Gcodes. The first step was to export the cube in MM to an .Stl file. Then use the Cura settings to print:
+        one Low Quality, one Standard Quality, one Super Quality, and one Standard Quality with a concentric top and bottom (Thank you Andy Moon!).
         Below are the prints with the times and measurements on the sticky note attached.
     </p>
     <p>
@@ -69,12 +76,25 @@ With that finished I moved to Cura and created the Gcodes. One Low Quality, one 
     <img src="A3Concentric.jpg" width="400">
     </p>
     <p>
-Material: General Soft Wood and Material Thickness: 0.165”
+Part 3:
     </p>
     <p>
-Total time took about 7 and a half minutes.
+ Now we have reached the tubes and cylindars. I started with the cylindars as I thought they would be easier to make. I created a 30MM (3CM) circle using the circle tool.
+    Next I used the solid tool, "extrude closed planar curve" with an extrusion of 30. This created the base cylindar. Finishing this process I exported it as an .S0tl file.
+    I had two versions, one exported with .1MM tolerance and one with .001MM tolerance.
+    To make the tubes, I used the "tube" tool in solid tools. I initially tried to make two cylindars and cut one out of the other but my s/o showed me the tube function.
+    I made the "tube" with a 15 radius and an inner radius of 14.6. This made the .4 one extrusion distance becasue my nozzel is .4MM which I double checked with the length function (line placed across the tube extrusion). (Thank you to Jesslord!).
+    This tube was also exported as an .Stl file.
+    Lastly, I took the two .Stl files and put them on Cura using the specific paramaters in the assignment.
+    <p>
+        (Tubes: 1 Single extrusion & 1 double extrusion with a random z-seam alignment)
+    </p>
     <p>    
-    <img src="Grasshopperlasercutting.jpg" width="1000">
+        (Cylindars: .1MM tolerance, .001MM tolerance, spiralize outer contour mode, and printed on the side with supports) 
+        I did end up taking off the supports of the last cylindar to see how that worked before I measured it.
+    </p>
+    <p>    
+        <img src="Grasshopperlasercutting.jpg" width="1000">
     </p>
     <p>
 Here is the final shake test.
