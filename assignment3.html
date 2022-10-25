@@ -123,39 +123,63 @@ Part 4:
     </p>
     <p>
         Now I know I said I was finished, but my artistic side would not let me accept this as my final korok acorn and it was still Monday, so I did what a crazy person does and went for it.
-        I pulled up <a href="https://www.zeldadungeon.net/wiki/images/thumb/0/05/Korok886.png/200px-Korok886.png"> an actual image from the game. </a
-        Secondly I asked my s/o if he could show me how to accomplish my thoughts and he gave me a demo. I tried many variations and ways to get this done I will be sharing the sucessful attempts.
+        I pulled up <a href="https://www.zeldadungeon.net/wiki/images/thumb/0/05/Korok886.png/200px-Korok886.png"> an actual image from the game. </a>
+        Secondly I asked my s/o if he could show me how to accomplish my thoughts and he gave me a demo on specific parts I asked him about.
+        I foolishly tried to do a  lot on my own with little guidance and thus I tried many variations and ways to get this done.
+        I will be sharing the sucessful attempts.
         First: The Log. I used the same steps as before but scaled the log smaller to match the acorn more accurately.
         Second: The Acorn. The acron was made by creating a curve of half the acorn. This used the "curve interpolate points" tool along with a circle and line. 
         The next part was turning it into a surface, in surface tools I used the "surface from planar curves" to do this. 
         Next I used the command revolve, the axis is set to the line side of the surface, and done twice with angles 180 degrees and -180 degrees.
+    </p>
+    <p>
     <img src="A3Acorn2.1.png" width="300">
     <img src="A3Acorn2.2.png" width="300">
     <img src="A3Acorn2.3.png" width="300">
     <img src="A3Acorn2.4.png" width="300">
     <img src="A3Acorn2.5.png" width="300">
+    </p>
+    <p>
         Third: A back piece for the log. I first placed 4 cylinders along the back rim that went into the model. 
         Then I extruded a circle the same radius as the log and extruded that strait backwards. Then I used "Buleon union" to combine them.
         Once I had a solid piece I copied it and used "buleon difference" to cut out the cylinders from the log. Lastly I repasted the back piece.
+    </p>
+    <p>
     <img src="A3LogBack1.png" width="800">
     <img src="A3LogBack1.png" width="800">
+    </p>
+    <p?   
         Fourth: I duplicated the back piece to make a front one. I used the curve interpolate points to trace the outline on <a href="https://www.zeldadungeon.net/wiki/images/thumb/0/05/Korok886.png/200px-Korok886.png"> the image </a .
         Next I made it a surface (same steps as before) and then extruded with "extrude closed planar curve" and moved it into the middle. Next I "scaled" it multiple times till it looked right.
         Using the same technique as before (buleon difference) to cut out that shape. In the next step I made a second extrusion around the rim using the "cage" tool around the new extrusion.
         Then I used "cage edit" to modify the extrusion so it wasn't flat. I was unable to merge these two extrusions in Rhino but they exported as an .Stl together just fine.
+    </p>
+    <p>
     <img src="A3FrontCut1.png" width="400">
     <img src="A3FrontCut2.png" width="400">
     <img src="A3FrontCut3.png" width="400">
-    <img src="A3LogCurve.png" width="400">      
+    <img src="A3LogCurve.png" width="400">     
+   </p>
+   With all the pieces made I then moved them so they would print nested and put it in cura.
+   <p>
+   <img src="A3Cura1.png" width="500">
+   <img src="A3Cura2.png" width="500">   
+   </p>    
+   <p>
    The final print took 2 hours 13 minutes and 35 seconds. However, the back and front of the log were not able to connect because the holes were too small.
         This is what I get for making it tiny. My s/o (I cannot praise him enough) graciously used some of his power tools to open up the holes so they would fit.
+            He also had to end up clipping the pieces so they would fit better.
     </p>
-     
+    <p>
+    <img src="AA3Print1.jpg" width="800">
+    <img src="A3Print2.jpg" width="800">
+    <img src="A3FinalPrints.jpg" width="1000"> 
+    </p>
     <p>
 Documentation:
     </p>
     <p>
-<a href=A2.gh>Grasshopper file</a>
+<a href=A2.gh>Rhino File</a>
     </p>
     <p>
 <a href=A2finalcut.ai>Adobe Illustrator file</a>
