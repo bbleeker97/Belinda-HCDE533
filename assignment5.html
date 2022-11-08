@@ -1,0 +1,113 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Belinda Bleeker's HCDE533 Assignment 5</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+        <h1>Belinda Bleeker's Assignment 5!</h1>
+    <p>
+    <img src="IMG_1453_AdobeExpress.gif" width=1000></a>
+    </p>
+    <p>
+     For this project my first step was to create two .Stl files. 
+      I cosplay so I thought I would work on a necklace piece for one of my upcoming projects. For my reference I used <a href= "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4a8dd0c7-e572-41ec-b046-cdfbf9a02312/dd04jos-776ed135-28cf-43ad-98bd-099884824d56.png/v1/fill/w_1024,h_1055,strp/sunset_shimmer_s_necklace_by_curvesandlines_dd04jos-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA1NSIsInBhdGgiOiJcL2ZcLzRhOGRkMGM3LWU1NzItNDFlYy1iMDQ2LWNkZmJmOWEwMjMxMlwvZGQwNGpvcy03NzZlZDEzNS0yOGNmLTQzYWQtOThiZC0wOTk4ODQ4MjRkNTYucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.6XNpt4tI8XeL86LAI4Dy_zxTDlxPTEsmwP0KTA5_rvIhttps://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/4a8dd0c7-e572-41ec-b046-cdfbf9a02312/dd04jos-776ed135-28cf-43ad-98bd-099884824d56.png/v1/fill/w_1024,h_1055,strp/sunset_shimmer_s_necklace_by_curvesandlines_dd04jos-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA1NSIsInBhdGgiOiJcL2ZcLzRhOGRkMGM3LWU1NzItNDFlYy1iMDQ2LWNkZmJmOWEwMjMxMlwvZGQwNGpvcy03NzZlZDEzNS0yOGNmLTQzYWQtOThiZC0wOTk4ODQ4MjRkNTYucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.6XNpt4tI8XeL86LAI4Dy_zxTDlxPTEsmwP0KTA5_rvI"> this image</a>.
+      I created the pendant part by creating a curve of the outline and using "rotate" to make it a 3D shape. 
+      I connected the top part by using the solid tools to shape it and used "booleanunion" to connect them.
+      Next, I created a cylinder and used "booleandifference" to create a hole so a chain/rope could fit through.
+      For the sun .Stl I put the image into Rhino, used "scale" to match it to the pendant.stl size. Then I moved the pendant shape.
+      I traced the sun pattern and made it a solid with "extrudecrv". For the middle I created a sphere for the middle, using "booleandifference" to make it only appear on the top.
+      Lastly I exported both solids separately as their own .Stl files and then imported them into the same file. 
+    </p>
+    <p>
+    <img src="A5p1.1.png" width=500></a>
+    <img src="A5p1.2.png" width=500></a>
+    </p>
+    <p>
+   I ended up using "quadremesh" twice on the pendant because the edges were too rigid in the first mesh. 
+   From right to left we have Quadremesh with 1,000, Quadresmesh wit 2,000, and the original mesh.
+    <p>
+    <img src="A5p1.3.png" width=1000></a>
+    </p>  
+    <p>
+   I tried using "quadremesh" on the sun.stl but it took away the smoothness of the original mesh, so I stuck with the original.
+   From right to left we have Quadremesh with 1,000 and the original mesh.
+    <p>
+    <img src="A5p1.4.png" width=1000></a>
+    </p>  
+    <p>
+     Lastly I combined the two meshes to create a single mesh. In the end I used the "join" command as "booleanunion" couldn't mesh the objects together.
+    <p>    
+    <img src="A5p1.5.png" width="1000">
+    </p>   
+    <p>
+    I then imported the combined mesh into Cura to test that everything turned out alright. Which it did! 
+    </p>
+    <p>    
+    <img src="A5p1.6.png" width="500">
+    <img src="A5p1.7.png" width="500">
+    </p>
+    <p>
+    Lastly, I 3D printed my mesh, the first one came out wonky because the filament got tangled at the end. But the second one came out perfectly!
+    </p>
+    <p>
+    <img src="A5P1.8.jpg" width="1000">
+    </p>
+    <p>
+    For the lamp part of this assignment, I did most of the wireframing and plan to laser cut the wood pieces before class.
+    First, I created a holder for the bulb, with the measurements of the bulb I took. 
+    Next I create stands (the first version is what I ended up using, I changed it a lot though). The first step was measuring the wood I have at 2.83mm thickness.
+    Next I used curves to create two block like stands that would connect with each other, keeping them separate with different layers. 
+    </p>
+    <p>    
+    <img src="A5p1.1.png" width="500">
+    <img src="A5p1.2.png" width="500">
+    </p>
+    <p>
+     I then created pressfit pieces to create the "skeleton" of the shade. These pieces put together should hold the lamp shade in place.
+     For each of these I created the first one as a curve, extruded it, placed it on the model and used "polar array" to make sure it fit with the standing pieces.
+    <p>
+    <img src="A5p2.4.png" width="500">
+    <img src="A5p2.5.png" width="500">
+    <img src="A5p2.6.png" width="500">
+    <img src="A52.7.png" width="1000"> Full wireframe
+    </p>
+    <p>
+     The last modeling I did was to create a base that the stands would connect to so the lamp doesn't fall over because it is top heavy.
+      I created the base using "truncated cone" and used the stands with "boolean difference" to create slots for them to connect. 
+      Then I created a cylinder to make a tube for the wire of the lamp to go through.
+    </p>
+    <p>
+    <img src="A5p2.8.png" width="500">
+    <img src="A5p2.9.png" width="500">
+    </p>
+Documentation:
+    </p>
+    <p>
+<a href=A4.3dm>Rhino File</a>
+    </p>
+    <p>
+<a href=Ginkgo Bunny.ai>Adobe Illustrator file</a>
+    </p>
+
+    <p>
+Acknowledgements
+    </p>
+    <p>
+My s/o (Peter) with giving me tips and direction for the lamp part.
+    </p>
+    <p>
+And my friend Dana for helping me put this site together
+    </p>
+    </p>
+ <a href="index.html"><p>Return to index</p></a>
+        </div>        
+    </body>
+</html>
