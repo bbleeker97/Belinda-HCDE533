@@ -96,35 +96,48 @@ I then sent the .Stl to the 3D printer, where we encountered issues.
     <img src="trim_A01E76BA-202B-404F-A1DE-73E88A15F049_AdobeExpress.gif" width="500">
     </p>
     <p>
-    For the molding part of this assignment I
-    First, I created a holder for the bulb, with the measurements of the bulb I took. 
-    Next I create stands (the first version is what I ended up using, I changed it a lot though). The first step was measuring the wood I have at 2.83mm thickness.
-    Next I used curves to create two block like stands that would connect with each other, keeping them separate with different layers. 
+    For the molding part of this assignment I started trying to make my own .stl while the 3D print was finishing as a test.
+    In the end Junchao pointed out it was better for a 1-piece mold and time didn't allow for it.
+    So, it was scrapped but I absolutely loved the outcome so I kept it in the document.
+    Instead I moved to using an .Stl from thingiverse <a href="https://www.thingiverse.com/thing:5194763"> of Owlbert from the Owl House </a>
+    I first split owlbert into two pieces by using "MeshBooleanSplit" and a surface along the middlepoint I found with "DraftAngleAnalysis".
+    Next I made two rectangles larger than owlbert and used "BooleanDifference" to create spaces for a pouring channel and air tube.
+    I then used 4 rectangles to create the keys. And I used "MeshBooleanUnion" to make each side it's own .Stl.
+    I then realized oh no, taking it away from the 3D model does the opposite of what I want so I had to restart.
     </p>
     <p>    
-    <img src="A5p2.1.png" width="500">
-    <img src="A5p2.2.png" width="500">
+    <img src="A6Owlbert1.1.png" width="500">
+    <img src="A6Owlber1.2.png" width="500">
+    <img src="A6Owlbert1.3.png" width="500">
+    <img src="A6Owlbert1.4.png" width="500">
     </p>
     <p>
-     I then created pressfit pieces to create the "skeleton" of the shade. These pieces put together should hold the lamp shade in place.
-     For each of these I created the first one as a curve, extruded it, placed it on the model and used "polar array" to make sure it fit with the standing pieces.
+    I repeated all of the above steps except instead of subtracting I added the pour tube and air tube.
+    Next I created a hollow box around the mesh to create a box to pour the scilicone into.
+    The initial print was extimated to be 15 hours so I followed Noelle's suggestion and messed with the settings in Cura.
+    I changed: Layer Height -> .4, Wall Thickness ->, .45 and Infill Density to 10.
+    This changed the time to 6 hours.
     <p>
-    <img src="A5p2.4.png" width="400">
-    <img src="A5p2.5.png" width="400">
-    <img src="A5p2.6.png" width="400">
-    <img src="A52.7.png" width="1000"> Full wireframe
+    <img src="A6Owlbert2.png" width="600">
+    <img src="A6Owlbert2.1.png" width="400">
     </p>
     <p>
-     The last modeling I did was to create a base that the stands would connect to so the lamp doesn't fall over because it is top heavy.
-      I created the base using "truncated cone" and used the stands with "boolean difference" to create slots for them to connect. 
-      Then I created a cylinder to make a tube for the wire of the lamp to go through.
+    Here we ran into issues, once again my 3D printer was printing with one side too thin and then with breaks in it.
+    I have constantly had to re-level the bed, take out filament to cut off parts with indents.
+    So my s/o took a full look and apparently one of the wire protectors was making it so the back left was unable to properly level.
+    He ended up taking it apart, fixing it and then re-leveling it for me. Which I seriously need to thank him for, it wasn't easy.
+    Here are examples of failed prints with the issues this caused.
+    </p>
+    <p>
+    <img src="A6PrintFail.jpg" width="500">
+    <img src="A6PrintFail2.jpg" width="500">   
+    </p>
+    <p>
+    In the end the Owlbert prints took 5 hours 42 minutes and 41 seconds while the boxes to go around it took 4 hours 59 minutes and 4 seconds.
     </p>
     <p>
     <img src="A5p2.8.png" width="500">
     <img src="A5p2.9.png" width="500">
-    </p>
-    <p>
-     I plan to cut out the wood parts before class so this may be updated if I finish that beforehand. 
     </p>
 Documentation:
     </p>
@@ -143,10 +156,16 @@ Documentation:
 Acknowledgements
     </p>
     <p>
-My s/o (Peter) with giving me tips and direction for the lamp part.
+My s/o (Peter) with fixing the 3D printer.
     </p>
     <p>
 And my friend Dana for helping me put this site together
+    </p>
+    <p>
+Noele for advice on cutting printing time down.
+    </p>
+    <p>
+Junchao for help with the part I ended up not using but love anyways.
     </p>
     </p>
  <a href="index.html"><p>Return to index</p></a>
