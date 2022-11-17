@@ -1,0 +1,175 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+
+        <title>Belinda Bleeker's HCDE533 Assignment 7</title> 
+
+        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
+
+    </head> 
+    <body> 
+
+        <div class="header">
+        <h1>Belinda Bleeker's Final Project Proposal!</h1>
+    <p>
+<!--     <img src="trim_A01E76BA-202B-404F-A1DE-73E88A15F049_AdobeExpress (1).gif" width=1000></a> -->
+    </p>
+    <p>
+  
+    </p>
+    <p>
+    <img src="A6.1.jpg" width=500></a>
+    <img src="A6.2.jpg" width=500></a>
+    </p>
+    <p>
+   To fix this I measured the plug and created a shape that combined the plug and the circle in Rhino.
+   I then used "booleanDifference" to create a new hole as well as remove a little bit of the inner circle so the bulb would fit. 
+    <p>
+    <img src="A6.3.jpg" width=500></a>
+    <img src="A6.4.jpg" width=500></a>
+    <img src="A6Fix1.png" width=500></a>
+    <img src="A6Fix1.1.png" width=500></a>
+    </p>  
+    <p>
+      I then reprinted the piece and it worked perfectly!
+      I also tested it with the pieces I had laser cut last week.
+    </p>
+    <p>
+    <img src="A6FixPrint.jpg" width=500></a>
+    <img src="A6FixPrint2.jpg" width=500></a>
+    </p>  
+    <p>
+I used the objects I had created in the previous assignment to create a base.
+      The base had the same shape for the plug in the center. 
+      I used the previous objects that represent the parts I would laser cut to create hole for them to press fit into.
+      Lastly I used a cylinder to make a channel at the bottom for the cord.
+    <p>
+    <img src="A6Fix1.2.png" width=500></a>
+    <img src="A6Base1.1.png" width=500></a>
+    <img src="A6Base1.2.png" width=500></a>
+    <img src="A6Base1.3.png" width=500></a>
+    <img src="A6Fix1.3.png" width=500></a>
+    </p>  
+    <p>
+I then sent the .Stl to the 3D printer, where we encountered issues. 
+      The bottom appeared to be sticking when I started it but overnight somehow it didn't stay that way.
+      The print was warped, so I ran it again this time using the gluestick trick.
+      While the second one was printing I foolishly decided to test if the laser cut pieces fit in the base, the slots were warped because of the misprint
+      so, when I tried to take the pieces out they broke.
+    <p>    
+    <img src="A6FailPrint1.jpg" width=500></a>
+    <img src="A6FailPrint2.jpg" width=500></a>
+    <img src="A6FailPrint3.jpg" width=300></a>
+    </p>   
+    <p>
+    So while the base continued to print I went to campus to recut my pieces. 
+    I made some minor edits to them thinking they would fit together, I ended up not using them because I had some personal emergencies.
+    Because of these emergencies I had to scrap my plans for the shade, but I used two methods, the blub can be removed, and they are pressfit, so it should fulfill the assignment.
+    When I got to the 8 I learned that they had set up the new laser cutter and that it was the only one I could use.
+    I failed the first print because it wouldn't get through when the staff explained that with these the power, speed, and PPI are determined by the material selected.
+    Instead I changed the vector cutting setting to increase the cutting power.
+    In the end I used: Power 100%, Speed 6%, PPI 300, Z-Axis 2.5, Vector Cutting +15%. The final cut took 2 mintues and 47 seconds.
+    I then tested the main parts, the ones that hold the bulb, and the fit was more precise than the other ones, which was great.
+    </p>
+    <p>    
+    <img src="IMG_1475_AdobeExpress.gif" width="300">
+    <img src="IMG_1483_AdobeExpress.gif" width="300">
+    </p>
+    <p>
+    Finally the base print was finished it took 15 hours 3 minutes and 4 seconds to print, and it came out correctly.
+    </p>
+    <p>
+    <img src="A6Base1.jpg" width="400">
+    <img src="A6Base2.jpg" width="400">
+    <img src="A6Base3.jpg" width="400">
+    </p>
+    <p>
+    Here is the final product. I didn't have enough time to make the part of the molding assignment and a shade, 
+      because of outside incidents, hopefully this counts well enough.
+    </p>
+    <p>    
+    <img src="A6LampFinal.jpg" width="500">
+    <img src="trim_A01E76BA-202B-404F-A1DE-73E88A15F049_AdobeExpress (1).gif" width="500">
+    </p>
+    <p>
+    For the molding part of this assignment I started trying to make my own .stl while the 3D print was finishing as a test.
+    In the end Junchao pointed out it was better for a 1-piece mold and time didn't allow for it.
+    So, it was scrapped but I absolutely loved the outcome so I kept it in the document.
+    Instead I moved to using an .Stl from thingiverse <a href="https://www.thingiverse.com/thing:5194763"> of Owlbert from the Owl House </a>
+    I first split owlbert into two pieces by using "MeshBooleanSplit" and a surface along the middlepoint I found with "DraftAngleAnalysis".
+    Next I made two rectangles larger than owlbert and used "BooleanDifference" to create spaces for a pouring channel and air tube.
+    I then used 4 rectangles to create the keys. And I used "MeshBooleanUnion" to make each side it's own .Stl.
+    I then realized oh no, taking it away from the 3D model does the opposite of what I want so I had to restart.
+    </p>
+    <p>    
+    <img src="A6Owlbert1.1.png" width="500">
+    <img src="A6Owlber1.2.png" width="500">
+    <img src="A6Owlbert1.3.png" width="500">
+    <img src="A6Owlbert1.4.png" width="500">
+    </p>
+    <p>
+    I repeated all of the above steps except instead of subtracting I added the pour tube and air tube.
+    Next I created a hollow box around the mesh to create a box to pour the scilicone into.
+    The initial print was extimated to be 15 hours so I followed Noelle's suggestion and messed with the settings in Cura.
+    I changed: Layer Height -> .4, Wall Thickness ->, .45 and Infill Density to 10.
+    This changed the time to 6 hours.
+    <p>
+    <img src="A6Owlbert2.png" width="500">
+    <img src="A6Owlbert2.1.png" width="500">
+    </p>
+    <p>
+    Here we ran into issues, once again my 3D printer was printing with one side too thin and then with breaks in it.
+    I have constantly had to re-level the bed, take out filament to cut off parts with indents.
+    So my s/o took a full look and apparently one of the wire protectors was making it so the back left was unable to properly level.
+    He ended up taking it apart, fixing it and then re-leveling it for me. Which I seriously need to thank him for, it wasn't easy.
+    Here are examples of failed prints with the issues this caused.
+    </p>
+    <p>
+    <img src="A6PrintFail.jpg" width="500">
+    <img src="A6PrintFail2.jpg" width="500">   
+    </p>
+    <p>
+    In the end the Owlbert prints took 5 hours 42 minutes and 41 seconds while the boxes to go around it took 4 hours 59 minutes and 4 seconds.
+    Here is the final result.
+    </p>
+    <p>
+    <img src="A6Owlbert.jpg" width="1000">
+    </p>
+Documentation:
+    </p>
+    <p>
+<a href=A5.3dm>Lamp Rhino File</a>
+<a href=A6.3dm> Mold Rhino File</a>
+    </p>
+    <p>
+<a href=A6Base.stl>P Base STL file</a>
+<a href=A6BulbFINAL.stl> Bulb Holder STL file</a>
+<a href=A6Owl1.stl> Mold 1 STL file</a>
+<a href=A6Owl2.stl> Mold 2 STL file</a>
+<a href=A6OwlBox.stl> Mold 1 STL file</a>        
+    </p>
+    <p>
+<a href=A6Final4.dxf> Illustrator File</a>
+    </p>
+    <p>
+Acknowledgements
+    </p>
+    <p>
+My s/o (Peter) with fixing the 3D printer.
+    </p>
+    <p>
+And my friend Dana for helping me put this site together
+    </p>
+    <p>
+Noele for advice on cutting printing time down.
+    </p>
+    <p>
+Junchao for help with the part I ended up not using but love anyways.
+    </p>
+    </p>
+ <a href="index.html"><p>Return to index</p></a>
+        </div>        
+    </body>
+</html>
