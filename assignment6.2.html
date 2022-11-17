@@ -4,7 +4,7 @@
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
 
-        <title>Belinda Bleeker's HCDE533 Assignment 6</title> 
+        <title>Belinda Bleeker's HCDE533 Assignment 6.2</title> 
 
         <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
 
@@ -12,70 +12,65 @@
     <body> 
 
         <div class="header">
-        <h1>Belinda Bleeker's Assignment 6!</h1>
+        <h1>Belinda Bleeker's Assignment 6.2!</h1>
     <p>
-    <img src="trim_A01E76BA-202B-404F-A1DE-73E88A15F049_AdobeExpress (1).gif" width=1000></a>
+<!--     <img src="trim_A01E76BA-202B-404F-A1DE-73E88A15F049_AdobeExpress (1).gif" width=1000></a> -->
     </p>
     <p>
-     Continuing from last week I printed out the .stl I made based on the dimensions of the lightbulb. 
-      However once it was printed I realized it was too perfect of a fit and I had forgotten one important thing... the plug.
+   After printing my first 3D part of the mold I realized two things, 1. the box was way too big and 2. there was a ton of supports that the silicone would go through the hole at the bottom.
+   Next step was to remake the model, but for whatever reason I didn't keep a copy of any of the previous steps. 
+   So, in a new file I imported the <a href="https://www.thingiverse.com/thing:5194763"> file I got from thingiverse </a> again.
+   Following the same steps as before I split the model, this time I created a cylinder to fill the hole, it took a lot of resizing so it would stay a closed mesh.
     </p>
     <p>
-    <img src="A6.1.jpg" width=500></a>
-    <img src="A6.2.jpg" width=500></a>
+<!--     <img src="A6.1.jpg" width=500></a>
+    <img src="A6.2.jpg" width=500></a> -->
     </p>
     <p>
-   To fix this I measured the plug and created a shape that combined the plug and the circle in Rhino.
-   I then used "booleanDifference" to create a new hole as well as remove a little bit of the inner circle so the bulb would fit. 
+Next I remade the base, I realized that the air pocket I originally had wouldn't work and didn't need to be so big.
+    I created a solid cone for the pouring, "booleanUnion"ed and then trimmed to fit as a half.
+    I made two small cyliners and mirrored them to create small air pockets and used "booleanUnion" to combine it to the base.
+    Next I used spheres instead of rectangles for the keys, I mirrored the first one and then the two to make all 4 even. 
+    I created a copy of the based and placed it 180 degrees against the top of the original and used "booleandifference" to create the indents.
+    After moving that part back to the bottom I used "booleanunion" on the other piece with the spheres. 
     <p>
-    <img src="A6.3.jpg" width=500></a>
+<!--     <img src="A6.3.jpg" width=500></a>
     <img src="A6.4.jpg" width=500></a>
     <img src="A6Fix1.png" width=500></a>
-    <img src="A6Fix1.1.png" width=500></a>
+    <img src="A6Fix1.1.png" width=500></a> -->
     </p>  
     <p>
-      I then reprinted the piece and it worked perfectly!
-      I also tested it with the pieces I had laser cut last week.
+    I then placed the half of the mesh I imported and edited in the middle. 
+    To make it even on the other side I used the "mirror" tool.
+    To finalize the pieces I used "meshbooleanunion".
+    Then I tested the model by creating negative space of each section in two cubes and moving them to fit together.
+    This confirmed that the mold should create the shape I was looking for.
     </p>
     <p>
-    <img src="A6FixPrint.jpg" width=500></a>
-    <img src="A6FixPrint2.jpg" width=500></a>
+<!--     <img src="A6FixPrint.jpg" width=500></a>
+    <img src="A6FixPrint2.jpg" width=500></a> -->
     </p>  
     <p>
-I used the objects I had created in the previous assignment to create a base.
-      The base had the same shape for the plug in the center. 
-      I used the previous objects that represent the parts I would laser cut to create hole for them to press fit into.
-      Lastly I used a cylinder to make a channel at the bottom for the cord.
+    I used the same box as before but added a lip underneath based on _'s advice to make the mold easier to push out.
     <p>
-    <img src="A6Fix1.2.png" width=500></a>
+<!--     <img src="A6Fix1.2.png" width=500></a>
     <img src="A6Base1.1.png" width=500></a>
     <img src="A6Base1.2.png" width=500></a>
     <img src="A6Base1.3.png" width=500></a>
-    <img src="A6Fix1.3.png" width=500></a>
+    <img src="A6Fix1.3.png" width=500></a> -->
     </p>  
     <p>
-I then sent the .Stl to the 3D printer, where we encountered issues. 
-      The bottom appeared to be sticking when I started it but overnight somehow it didn't stay that way.
-      The print was warped, so I ran it again this time using the gluestick trick.
-      While the second one was printing I foolishly decided to test if the laser cut pieces fit in the base, the slots were warped because of the misprint
-      so, when I tried to take the pieces out they broke.
+    I was able to place all four pieces in one cura file and sent it to the 3D printer where it took 10 hours 55minutes and 24 seconds to print overnight.
     <p>    
-    <img src="A6FailPrint1.jpg" width=500></a>
+<!--     <img src="A6FailPrint1.jpg" width=500></a>
     <img src="A6FailPrint2.jpg" width=500></a>
-    <img src="A6FailPrint3.jpg" width=300></a>
+    <img src="A6FailPrint3.jpg" width=300></a> -->
     </p>   
     <p>
-    So while the base continued to print I went to campus to recut my pieces. 
-    I made some minor edits to them thinking they would fit together, I ended up not using them because I had some personal emergencies.
-    Because of these emergencies I had to scrap my plans for the shade, but I used two methods, the blub can be removed, and they are pressfit, so it should fulfill the assignment.
-    When I got to the 8 I learned that they had set up the new laser cutter and that it was the only one I could use.
-    I failed the first print because it wouldn't get through when the staff explained that with these the power, speed, and PPI are determined by the material selected.
-    Instead I changed the vector cutting setting to increase the cutting power.
-    In the end I used: Power 100%, Speed 6%, PPI 300, Z-Axis 2.5, Vector Cutting +15%. The final cut took 2 mintues and 47 seconds.
-    I then tested the main parts, the ones that hold the bulb, and the fit was more precise than the other ones, which was great.
+    Next I...
     </p>
     <p>    
-    <img src="IMG_1475_AdobeExpress.gif" width="300">
+<!--     <img src="IMG_1475_AdobeExpress.gif" width="300">
     <img src="IMG_1483_AdobeExpress.gif" width="300">
     </p>
     <p>
@@ -154,7 +149,7 @@ Documentation:
     <p>
 <a href=A6Final4.dxf> Illustrator File</a>
     </p>
-    <p>
+    <p> -->
 Acknowledgements
     </p>
     <p>
