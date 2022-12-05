@@ -38,106 +38,101 @@
     <img src="A8Eyes6.png" width=500></a>
     </p>  
     <p>
-      I then reprinted the piece and it worked perfectly!
-      I also tested it with the pieces I had laser cut last week.
+    The second part of the editing was the bottom piece. I used "MeshBooleanDifference" to delete the original bottom and created a circle the same width of the bottom.
+    Next I used the solid tools to create two halfs that would fit together to create the final piece that would lock together;
+    one connected to the eagle and one to pressfit into the staff.
     </p>
     <p>
-    <img src="A6FixPrint.jpg" width=500></a>
-    <img src="A6FixPrint2.jpg" width=500></a>
+    <img src="A8Bottom1.png" width=500></a>
+    <img src="A8Bottom2.png" width=500></a>
+    <img src="A8Bottom3.png" width=500></a>
+    <img src="A8Bottom4.png" width=500></a>
     </p>  
     <p>
-I used the objects I had created in the previous assignment to create a base.
-      The base had the same shape for the plug in the center. 
-      I used the previous objects that represent the parts I would laser cut to create hole for them to press fit into.
-      Lastly I used a cylinder to make a channel at the bottom for the cord.
+    To create the lock I followed <a href="https://grabcad.com/library/twist-lock-cylindrical-enclosure-1"> this design. </a>
+    I created cylinders to extrude the top and cut away from the bottom. I then create a cylinder on the side of the extruded piece and used "PolarArray" to equally distribute 4 along the curve.\
+    I chamfered the bottom with "ChamferHandle" with .5 so it would fit better.
+    I then used that cylinder to guide the cut out I made for the bottom piece.
+    The bottom piece was a bit complicated, first I cut out the piece from the top slightly bigger than the extrusion of the top piece.
+    Next I created a tube that had the cut out design for the nobs to lock into and joined that to the solid.
+    Lastly, I created a cylinder the width of the inside of my pvc pipe to pressfit into it.
     <p>
-    <img src="A6Fix1.2.png" width=500></a>
-    <img src="A6Base1.1.png" width=500></a>
-    <img src="A6Base1.2.png" width=500></a>
-    <img src="A6Base1.3.png" width=500></a>
-    <img src="A6Fix1.3.png" width=500></a>
+    <img src="A8Lock1.png" width=500></a>
+    <img src="A8Lock2.png" width=500></a>
+    <img src="A8Lock7.png" width=500></a>
+    <img src="A8Lock3.png" width=500></a>
+    <img src="A8Lock4.png" width=500></a>
     </p>  
     <p>
-I then sent the .Stl to the 3D printer, where we encountered issues. 
-      The bottom appeared to be sticking when I started it but overnight somehow it didn't stay that way.
-      The print was warped, so I ran it again this time using the gluestick trick.
-      While the second one was printing I foolishly decided to test if the laser cut pieces fit in the base, the slots were warped because of the misprint
-      so, when I tried to take the pieces out they broke.
+    The next step was to print the pieces. I first printed the locking pieces separate to test the lock.
+    I first prited them with the locking side up, this took 2 hours 21 minutes and 16 seconds to print.'
+    These pieces unfortunately came out very rough and with slight issues but I was able to test the print fitting in the pipe.
     <p>    
-    <img src="A6FailPrint1.jpg" width=500></a>
-    <img src="A6FailPrint2.jpg" width=500></a>
-    <img src="A6FailPrint3.jpg" width=300></a>
+    <img src="A8LockApt1.jpg" width=500></a>
+    <img src="A8LockApt1.1.jpg" width=500></a>
+    <img src="trim_4E347543-F123-4DC4-8221-21472E43C426_AdobeExpress.gif" width=300></a>
     </p>   
     <p>
-    So while the base continued to print I went to campus to recut my pieces. 
-    I made some minor edits to them thinking they would fit together, I ended up not using them because I had some personal emergencies.
-    Because of these emergencies I had to scrap my plans for the shade, but I used two methods, the blub can be removed, and they are pressfit, so it should fulfill the assignment.
-    When I got to the 8 I learned that they had set up the new laser cutter and that it was the only one I could use.
-    I failed the first print because it wouldn't get through when the staff explained that with these the power, speed, and PPI are determined by the material selected.
-    Instead I changed the vector cutting setting to increase the cutting power.
-    In the end I used: Power 100%, Speed 6%, PPI 300, Z-Axis 2.5, Vector Cutting +15%. The final cut took 2 mintues and 47 seconds.
-    I then tested the main parts, the ones that hold the bulb, and the fit was more precise than the other ones, which was great.
+    The next time I tested them I flipped them and changed the settings, as the printer kept having issues... again.
+    I made a couple of changes to the settings: Layer Height .2mm, Wall Line Count 3, Printing Temperature 200 C, Build Plate Temperature 0.
+    I ended up turning off the heating which was apparently the issue with adhesion, It just wouldn't stay otherwise.
+    In the end the pieces worked and took 2 hours 43 minutes and 45 seconds.
     </p>
     <p>    
-    <img src="IMG_1475_AdobeExpress.gif" width="300">
-    <img src="IMG_1483_AdobeExpress.gif" width="300">
+    <img src="A8LockApt2.jpg" width="500">
     </p>
     <p>
-    Finally the base print was finished it took 15 hours 3 minutes and 4 seconds to print, and it came out correctly.
+    Next I printed the topper (which had the lock piece connected) It took 1 day 3 hours 14 minutes and 56 seconds.
+    The beak ended up not printing properly and the print fell breaking the tip of one of the wings.
+    To fix this I printed pieces of the topper where it failed/broke. It tooke 34 minutes and 57 seconds.
+    Then I sanded the topper and glued them on.
     </p>
     <p>
-    <img src="A6Base1.jpg" width="400">
-    <img src="A6Base2.jpg" width="400">
-    <img src="A6Base3.jpg" width="400">
+    <img src="A8Topper1.jpg" width="500">
+    <img src="A8Topper2.jpg" width="500">
+    <img src="A8Topper3.jpg" width="500">
+    <img src="A8Topper4.jpg" width="500">
     </p>
     <p>
-    Here is the final product. I didn't have enough time to make the part of the molding assignment and a shade, 
-      because of outside incidents, hopefully this counts well enough.
+    Next I printed the pieces for the bottom lock (1 hour 18 minutes and 40 seconds) and eyes (1 hour 36 minutes and 32 seconds).
+    I was able to press fit the bottom piece with the PVC pipe.
+    There was also some sanding done on the lock so it would work.
     </p>
     <p>    
-    <img src="A6LampFinal.jpg" width="500">
-    <img src="trim_A01E76BA-202B-404F-A1DE-73E88A15F049_AdobeExpress (1).gif" width="500">
+    <img src="A8Bottom1.jpg" width="500">
+    <img src="A8Bottom2.jpg" width="500">
+    <img src="A8Bottom3.jpg" width="500">
+    VIDEO
     </p>
     <p>
-    For the molding part of this assignment I started trying to make my own .stl while the 3D print was finishing as a test.
-    In the end Junchao pointed out it was better for a 1-piece mold and time didn't allow for it.
-    So, it was scrapped but I absolutely loved the outcome so I kept it in the document.
-    Instead I moved to using an .Stl from thingiverse <a href="https://www.thingiverse.com/thing:5194763"> of Owlbert from the Owl House </a>
-    I first split owlbert into two pieces by using "MeshBooleanSplit" and a surface along the middlepoint I found with "DraftAngleAnalysis".
-    Next I made two rectangles larger than owlbert and used "BooleanDifference" to create spaces for a pouring channel and air tube.
-    I then used 4 rectangles to create the keys. And I used "MeshBooleanUnion" to make each side it's own .Stl.
-    I then realized oh no, taking it away from the 3D model does the opposite of what I want so I had to restart.
+    I then created the molds for the eye pieces using the Oomoo. 
+    I followed <a href="https://www.youtube.com/watch?v=8HyVCVfZ_g8"> this method. </a> to create the molds.
+    I let them sit for 6 hours to finish curing before I removed the eye pieces.
     </p>
     <p>    
-    <img src="A6Owlbert1.1.png" width="500">
-    <img src="A6Owlber1.2.png" width="500">
-    <img src="A6Owlbert1.3.png" width="500">
-    <img src="A6Owlbert1.4.png" width="500">
+    <img src="A68Mold1.jpg" width="500">
+    <img src="IMG_1598_AdobeExpress.gif" width="300">
     </p>
     <p>
-    I repeated all of the above steps except instead of subtracting I added the pour tube and air tube.
-    Next I created a hollow box around the mesh to create a box to pour the scilicone into.
-    The initial print was extimated to be 15 hours so I followed Noelle's suggestion and messed with the settings in Cura.
-    I changed: Layer Height -> .4, Wall Thickness ->, .45 and Infill Density to 10.
-    This changed the time to 6 hours.
+    Next, casting the resin. 
+    I mixed the parts with the opaque dye for about 5 minutes and then set it in a vacuum chamber to remove bubbles before pouring it in the mold.
+    It cured over 12 hours but I didn't touch them for a little after as I was away in the mountains during that time.
     <p>
     <img src="A6Owlbert2.png" width="500">
-    <img src="A6Owlbert2.1.png" width="500">
+    <img src="IMG_1601_AdobeExpress.gif" width="500">
+    <img src="IMG_1604_AdobeExpress.gif" width="1000">
     </p>
     <p>
-    Here we ran into issues, once again my 3D printer was printing with one side too thin and then with breaks in it.
-    I have constantly had to re-level the bed, take out filament to cut off parts with indents.
-    So my s/o took a full look and apparently one of the wire protectors was making it so the back left was unable to properly level.
-    He ended up taking it apart, fixing it and then re-leveling it for me. Which I seriously need to thank him for, it wasn't easy.
-    Here are examples of failed prints with the issues this caused.
+    Next I tried smoothing the print with XTC-3D but it didn't really do much.
+    After that dried I had to sand the Resin molds slightly so they would pressfit, I'm really happy with the result.
     </p>
     <p>
-    <img src="A6PrintFail.jpg" width="500">
-    <img src="A6PrintFail2.jpg" width="500">   
+    <img src="IMG_1605_AdobeExpress.gif" width="1000">
     </p>
     <p>
-    In the end the Owlbert prints took 5 hours 42 minutes and 41 seconds while the boxes to go around it took 4 hours 59 minutes and 4 seconds.
-    Here is the final result.
+    Next I was supposed to spray paint, but I learned I can't in my apartment and I couldn't find another space I could do it.
+    In light of this I ended up painting with acrlyic on the 3D print only, I didn't have enough for the whole pipe.
+    This is the final result.
     </p>
     <p>
     <img src="A6Owlbert.jpg" width="1000">
@@ -145,18 +140,16 @@ I then sent the .Stl to the 3D printer, where we encountered issues.
 Documentation:
     </p>
     <p>
-<a href=A5.3dm>Lamp Rhino File</a>
-<a href=A6.3dm> Mold Rhino File</a>
+<a href=A5.3dm>Rhino File</a>
     </p>
     <p>
-<a href=A6Base.stl>P Base STL file</a>
-<a href=A6BulbFINAL.stl> Bulb Holder STL file</a>
-<a href=A6Owl1.stl> Mold 1 STL file</a>
-<a href=A6Owl2.stl> Mold 2 STL file</a>
-<a href=A6OwlBox.stl> Mold 1 STL file</a>        
-    </p>
-    <p>
-<a href=A6Final4.dxf> Illustrator File</a>
+<a href=A6Base.stl>P Topper STL file</a>
+<a href=A6BulbFINAL.stl> Tip Fix STL file</a>
+<a href=A6Owl1.stl> Beak Fix STL file</a>
+<a href=A6Owl2.stl> Eye 1 STL file</a>
+<a href=A6OwlBox.stl> Eye 2 STL file</a>   
+<a href=A6OwlBox.stl> Eye Box STL file</a>    
+<a href=A6OwlBox.stl> Bottom Lock STL file</a>    
     </p>
     <p>
 Acknowledgements
@@ -168,12 +161,6 @@ My s/o (Peter) with fixing the 3D printer.
 And my friend Dana for helping me put this site together
     </p>
     <p>
-Noele for advice on cutting printing time down.
-    </p>
-    <p>
-Junchao for help with the part I ended up not using but love anyways.
-    </p>
-    </p>
  <a href="index.html"><p>Return to index</p></a>
         </div>        
     </body>
